@@ -1,4 +1,5 @@
 os: linux
+cache: bundler
 dist: bionic
 language: python
 python:
