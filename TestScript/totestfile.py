@@ -1,6 +1,9 @@
 import random
 
+import time 
 
+
+time.sleep(60)
 print(f"Printing a randome number{random.random()}")
 print(f"Printing a randome number{random.random()}")
 print(f"Printing a randome number{random.random()}")
