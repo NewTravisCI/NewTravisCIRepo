@@ -11,7 +11,7 @@ env:
   jobs:
     secure: hFaDTNy5tUa0T0MwtpIbAKc29MoLz1j3X6LZYwADviZh4YeBpWUFxpF0WdO8+k1YRdS4vHM1T5ORXKvRYofw8DC4niz3/aPH9nrE2GAS/3kKEcn6o88OuT4yPOAJPBDgb5yEctZ2Hfy4FPQWE8gGOEktGbWiwtNQzeIY/65es2G6QB95dGw+Os4alydfol5cVlxng9h2lG6i+vqc9K0PpPDlzIEIPQ+atdueQYdiz8ekF5kWeDUMXg4JXh9YN6WNB3JCiqWrodIY2hkOxtX/En4cG5CGh0ZJJruFEK1eMhIZRpoHhorTCWyipMO/1QGXiu0tG8GlkBFlYHzOEdTuU1MDWyp1enpSvExHMJ37G9DWuT2RAv2LmFRX3jTufcwLy5ekDn9UCbwLcln7HvjmQa+W+7uvCGfOBNpQzybwaUZo/FNi48sMbdrLV+Jgrj3iK+vitVJEZsBy1+kSG/usXdhsOcPGxCqg022zF0HEix+IvXmHNNT3aD+gx7wbusYaoFCdCaLZnYxMAvBzJeDbTmxzevY4SYZewDm9OLf3YZhmtBmzFveuE2oi5cSlIjHLPpojAQKt4bhMZMQW27pkqk5rxvjt9o6uJuOrI6VbL8kUekIUyUXSSaguvJQg/NRtEbCMikic72eLTbCFjfCOwn/PC4bFq5AYjtLp/+M2xQQ=
 before_install:
-  - openssl aes-256-cbc -K $encrypted_f2826b98aa9e_key -iv $encrypted_f2826b98aa9e_iv -in encryptfile1.txt.enc -out encryptfile1.txt -d
+  #- openssl aes-256-cbc -K $encrypted_f2826b98aa9e_key -iv $encrypted_f2826b98aa9e_iv -in encryptfile1.txt.enc -out encryptfile1.txt -d
 python:
   - "3.7"
 script:
